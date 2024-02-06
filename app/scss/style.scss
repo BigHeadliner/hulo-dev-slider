@@ -14,7 +14,7 @@
 
 
   .slider__item {
-    border: 1px solid fuchsia;
+    border: 1px solid transparent;
     background-image: url('../images/slide-bg.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -60,8 +60,17 @@
   }
 
 
-
 }
+
+
+.fancybox-slide--iframe .fancybox-content {
+  background: #000;
+  opacity: 0.9;
+}
+  
+
+
+
 
 
 
